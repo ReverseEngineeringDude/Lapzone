@@ -1,3 +1,4 @@
+
 module.exports = {
     content: [
       "./views/**/*.ejs", // Include EJS files
@@ -6,7 +7,11 @@ module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        fontFamily:{
+          zenDots: ['Zen Dots', 'cursive'],
+        }
+      },
     },
     variants: {
       extend: {},
